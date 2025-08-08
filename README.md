@@ -40,3 +40,43 @@ The Advices are displayed directly on the web frontend in a clean, user-friendly
 
   Fetch API for async data retrieval
 
+⚙️ How It Works
+User uploads plant image via the frontend.
+
+Frontend sends the image to Relay App AI workflow endpoint.
+
+Relay App processes the image and returns a JSON response.
+
+Frontend extracts details and displays them in a results section.
+
+🔧 Setup Instructions
+
+1️⃣ Clone the Repository
+
+    git clone https://github.com/<your-username>/plant-disease-diagnosis.git
+    cd plant-disease-diagnosis
+
+2️⃣ Configure Relay App API
+
+Open script.js
+
+Find the section:
+
+    const RELAY_API_URL = "<Your Relay App Endpoint>";
+    const RELAY_API_KEY = "<Your API Key>";
+Replace with your actual Relay App endpoint & API key.
+
+3️⃣ Run Locally
+
+Simply open index.html in a browser, or use a local server.
+
+🤝 Contributing
+Pull requests are welcome!
+If you find a bug or have suggestions, open an issue.
+
+💡 Future Scope
+Add multilingual support for farmers in different regions.
+
+Offline mode with TensorFlow.js model.
+
+Mobile app integration.
