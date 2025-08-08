@@ -5,15 +5,14 @@
 The Plant Disease Diagnosis AI Web App helps farmers and gardeners identify plant diseases instantly by uploading an image of the plant.
 The app connects to an AI workflow in Relay App which analyzes the plant image and returns:
 
-  🌿 Plant type
 
-  🦠 Disease name
+    🦠 Disease name
 
-  📆 Expected life span
+    📆 Expected life span
 
-  💊 Solution / Treatment
+    💊 Solution / Treatment
 
-  🧪 Recommended pesticides
+    🧪 Recommended pesticides
 
 The Advices are displayed directly on the web frontend in a clean, user-friendly interface.
 
