@@ -5,39 +5,39 @@
 The Plant Disease Diagnosis AI Web App helps farmers and gardeners identify plant diseases instantly by uploading an image of the plant.
 The app connects to an AI workflow in Relay App which analyzes the plant image and returns:
 
-🌿 Plant type
+  🌿 Plant type
 
-🦠 Disease name
+  🦠 Disease name
 
-📆 Expected life span
+  📆 Expected life span
 
-💊 Solution / Treatment
+  💊 Solution / Treatment
 
-🧪 Recommended pesticides
+  🧪 Recommended pesticides
 
-The diagnosis is displayed directly on the web frontend in a clean, user-friendly interface.
+The Advices are displayed directly on the web frontend in a clean, user-friendly interface.
 
 🚀 Features
-Image Upload – Upload any plant image from your device.
+  Image Upload – Upload any plant image from your device.
 
-AI Diagnosis – Integrated with Relay App workflow for plant disease detection.
+  AI Diagnosis – Integrated with Relay App workflow for plant disease detection.
 
-Instant Results – Get plant type, disease, and treatment within seconds.
+  Instant Results – Get plant type, disease, and treatment within seconds.
 
-Responsive Design – Works on desktop, tablet, and mobile.
+  Responsive Design – Works on desktop, tablet, and mobile.
 
-Error Handling – Displays an error message if no diagnosis is found.
+  Error Handling – Displays an error message if no diagnosis is found.
 
 🛠️ Tech Stack
-Frontend:
+  Frontend:
 
-HTML5, CSS3, JavaScript
+    HTML5, CSS3, JavaScript
 
-Responsive styling with Flexbox/Grid
+    Responsive styling with Flexbox/Grid
 
-Backend / AI Integration:
+  Backend / AI Integration:
 
-Relay App API (AI workflow)
+  Relay App API (AI workflow)
 
-Fetch API for async data retrieval
+  Fetch API for async data retrieval
 
